@@ -72,6 +72,7 @@ public class AddActivity extends AppCompatActivity {
         }
     }
 
+    // COmment 2. User im Team
 
     private void buttonHomeClicked() {
         Intent intent = new Intent(this, MainActivity.class);
