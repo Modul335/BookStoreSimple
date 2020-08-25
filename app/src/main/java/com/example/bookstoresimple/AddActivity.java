@@ -47,7 +47,6 @@ public class AddActivity extends AppCompatActivity {
         buttonSave.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 System.out.println("doButtonSaveClick");
-                doButtonSaveClick();
             }
         });
 
@@ -55,9 +54,10 @@ public class AddActivity extends AppCompatActivity {
         buttonReset.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 System.out.println("doButtonResetClick");
-                doButtonResetClick();
             }
         });
+
+        // COMMENT 23
 
         autorText = (EditText)findViewById(R.id.bookTitel);
         titelText = (EditText) findViewById(R.id.bookAutor);
